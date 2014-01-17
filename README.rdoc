@@ -6,7 +6,8 @@ This is web based testing project is developed by 4 Guys
 3: Vishal Jain
 4: Piyush Awasthi
 
-== Getting Started
+Getting Started:
+===============
 
 1. Clone the Git repo
 	git clone git@github.com:piyushanchanto/Miniproject.git
@@ -40,6 +41,25 @@ Any Problem related to dependency and other:
 * Related to Spree http://guides.spreecommerce.com/developer/
 * You also mail me E-mail: piyush.awasthi@anchanto.com
 
+Requirements:
+=============
+
+1: Rails version 3.2.16
+	gem install rails -v '3.2.16'
+2: Ruby version 1.9.3p484
+	gem install ruby -v '1.9.3p484'
+3: Spree Version 2.0.8.beta
+	rails g spree:install
+4: Mysql Server version: 5.6.12 MySQL 
+
+Install Mysql:
+==============
+1: Open mysql home page
+	http://dev.mysql.com/downloads/mysql/
+2: Select Platform
+	Download TAR Archive
+3: Extract TAR File
+4: Double click to install
 
 Thank you
 
