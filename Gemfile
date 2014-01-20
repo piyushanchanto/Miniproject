@@ -22,6 +22,11 @@ end
 
 gem 'jquery-rails'
 
+group :development do
+  gem 'xray-rails'
+end
+
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
@@ -38,3 +43,9 @@ gem 'jquery-rails'
 # gem 'debugger'
 gem 'spree', github: 'spree/spree', branch: '2-0-stable'
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-0-stable'
+gem 'spree_wishlist', :git => 'git://github.com/spree/spree_wishlist.git', branch: '2-0-stable'
+gem 'spree_email_to_friend', :git => 'git://github.com/spree/spree_email_to_friend.git' , branch: '2-0-stable'
+gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-0-stable'
+
+gem 'spree_i18n', :git => 'git://github.com/spree/spree_i18n.git', :branch => '2-0-stable'
+

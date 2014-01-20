@@ -92,6 +92,23 @@ Any Problem Related To this Project:
 * You also mail me [E-mail](piyush.awasthi@anchanto.com)
 ```
 
+To open gem file of Spree:
+--------------------------
+
+```shell
+find spree path
+open -a finder path  as (/piyush.rvm/gems/ruby-1.9.3-p484/bundler/gems/spree-297e8e549791)
+```
+
+Solve issue of Taxonomy table structure not found:
+----------------------------------------------------
+
+```shell
+ bundle && rm -rf tmp/cache/assets
+ bundle install
+ rails g spree_i18n:install
+```
+
 ---
 
 **Thank You.**

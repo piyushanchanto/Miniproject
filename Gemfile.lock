@@ -64,6 +64,34 @@ GIT
       spree_core (~> 2.0.0)
       spree_frontend (~> 2.0.0)
 
+GIT
+  remote: git://github.com/spree/spree_email_to_friend.git
+  revision: f5c106255a0413168b4c25ca248085e36e027b57
+  branch: 2-0-stable
+  specs:
+    spree_email_to_friend (1.3)
+      recaptcha (>= 0.3.1)
+      spree_core (~> 2.0.0)
+
+GIT
+  remote: git://github.com/spree/spree_i18n.git
+  revision: ece7524cd94fd165d4726c7ec56bc5b40362af8d
+  branch: 2-0-stable
+  specs:
+    spree_i18n (3.1.0.beta)
+      globalize3 (~> 0.3.0)
+      i18n (~> 0.6.1)
+      rails-i18n (~> 0.7.3)
+      spree_core (~> 2.0.0)
+
+GIT
+  remote: git://github.com/spree/spree_wishlist.git
+  revision: 32b60afe45bf4210ab14d51dd6457acf80e8d2af
+  branch: 2-0-stable
+  specs:
+    spree_wishlist (2.0)
+      spree_core (>= 2.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -145,6 +173,10 @@ GEM
     erubis (2.7.0)
     execjs (2.0.2)
     ffaker (1.22.1)
+    globalize3 (0.3.1)
+      activemodel (>= 3.0.0)
+      activerecord (>= 3.0.0)
+      paper_trail (~> 2)
     highline (1.6.20)
     hike (1.2.3)
     httparty (0.12.0)
@@ -174,6 +206,9 @@ GEM
     nokogiri (1.6.1)
       mini_portile (~> 0.5.0)
     orm_adapter (0.5.0)
+    paper_trail (2.7.2)
+      activerecord (~> 3.0)
+      railties (~> 3.0)
     paperclip (3.4.2)
       activemodel (>= 3.0.0)
       activerecord (>= 3.0.0)
@@ -202,6 +237,8 @@ GEM
       activesupport (= 3.2.16)
       bundler (~> 1.0)
       railties (= 3.2.16)
+    rails-i18n (0.7.4)
+      i18n (~> 0.5)
     railties (3.2.16)
       actionpack (= 3.2.16)
       activesupport (= 3.2.16)
@@ -216,6 +253,7 @@ GEM
       polyamorous (~> 0.6.0)
     rdoc (3.12.2)
       json (~> 1.4)
+    recaptcha (0.3.6)
     sass (3.2.13)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
@@ -248,6 +286,9 @@ GEM
       railties (>= 3.0)
     warden (1.2.3)
       rack (>= 1.0)
+    xray-rails (0.1.12)
+      coffee-rails
+      rails (>= 3.1.0)
 
 PLATFORMS
   ruby
@@ -260,4 +301,8 @@ DEPENDENCIES
   sass-rails (~> 3.2.3)
   spree!
   spree_auth_devise!
+  spree_email_to_friend!
+  spree_i18n!
+  spree_wishlist!
   uglifier (>= 1.0.3)
+  xray-rails
