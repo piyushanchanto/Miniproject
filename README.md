@@ -100,8 +100,12 @@ find spree path
 open -a finder path  as (/piyush.rvm/gems/ruby-1.9.3-p484/bundler/gems/spree-297e8e549791)
 ```
 
-Solve issue of Taxonomy table structure not found:
-----------------------------------------------------
+Issue:
+------
+**Issue related to installations solve Here**
+
+1: Solve issue of Taxonomy table structure not found:
+-----------------------------------------------------
 
 ```shell
  bundle && rm -rf tmp/cache/assets
